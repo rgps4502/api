@@ -1,2 +1,9 @@
-#GET   http://0.0.0.0:80/api/v1/sms
-POST  http://0.0.0.0:80/api/v1/sms
+POST   http://localhost/api/sms/7/
+content-type: application/json
+
+{
+  "smsc": "发件人",
+  "timestamp": "2021-08-15T16:22:00",
+  "text": "內容",
+  "number": "收件人号码"
+}
